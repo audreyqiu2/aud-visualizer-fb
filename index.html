@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>audio visualizer prototype</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <iframe id="visual" src="https://audreyqiu2.github.io/aud.iovisualizer/sketch.html" frameborder="0"></iframe>
+
+    <script src="https://sdk.scdn.co/spotify-player.js"></script>
+    <script src="./index.js" type="module"></script>
+    <div class="content">
+      <h1>welcome to aud's audiovisualizer</h1>
+    <button id="loginBtn">login to spotify premium to start</button>
+    <section id="playlists-container" class="hidden">
+      <div id="myPlaylistsHeading" class="hidden">
+        <div id="profile">
+          <img>
+          <h2 id="username"></h2>
+        </div>
+        <hr>
+        <p>
+          select one:
+        </p>
+      </div>
+      <ul id="playlists">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </section>
+    </div>
+
+  </body>
+</html>

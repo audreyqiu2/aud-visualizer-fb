@@ -1,0 +1,33 @@
+{
+  "name": "spotify-api",
+  "version": "1.0.0",
+  "description": "A brief description of your project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "fetch": "^1.1.0",
+    "fetch-server": "^1.0.3",
+    "jsonwebtoken": "^9.0.0",
+    "node-fetch": "^3.3.0",
+    "nodejs": "^0.0.0",
+    "nodemon": "^2.0.21",
+    "request": "^2.88.2",
+    "require": "^0.4.4",
+    "spotify-web-api-node": "^5.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0"
+  }
+}
